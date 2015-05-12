@@ -6,12 +6,16 @@ body {
 
 input {
   /*display: block;*/
-  width: 30%;
-  font-size: 2em;
-  /*margin: 0 auto;*/
+  width: 150px;
+  font-size: 20px;
+  margin: 20px;
   /*position: fixed;*/
-  top: 10%;
-  left: 35%;
+  top: 100px;
+  left: 100px;
+}
+
+#submitButton {
+  width: 70px;
 }
 
 @media all and (max-width: 600px) {

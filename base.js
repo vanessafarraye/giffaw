@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var children = data.data
 	children.forEach(function(item,i){
 		var gif = item.images.fixed_height.url;
-		$("#blah").append("<img src='" + gif + "'>"); // mind the single vs. double quotes!
+		$("#blah").append("<img src='" + gif + "'>"); 
 		})  
 	}
 
